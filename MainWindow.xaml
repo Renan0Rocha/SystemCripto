@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="White">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="164,255,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Texto Criptografado" FontSize="25" HorizontalAlignment="Center" Margin="0,20,0,347"/>
+        <TextBox x:Name="txtMensagem" Width="350" Height="250" Margin="0 0 400 0" FontSize="15" TextWrapping="Wrap"/>
+        <TextBox x:Name="txtCriptografia" Width="350" Height="250" Margin="400 0 0 0" TextWrapping="Wrap"/>
 
     </Grid>
 </Window>
