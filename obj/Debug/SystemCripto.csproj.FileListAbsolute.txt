@@ -20,3 +20,4 @@ C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\
 C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\SystemCripto.csproj.CopyComplete
 C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\SystemCripto.exe
 C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\SystemCripto.pdb
+C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\App.baml
