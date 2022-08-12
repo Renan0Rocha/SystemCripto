@@ -7,11 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="White">
     <Grid>
-        <Label Content="Texto Criptografado" FontSize="25" HorizontalAlignment="Center" Margin="0,20,0,347"/>
-        <TextBox x:Name="txtMensagem" Width="350" Height="250" Margin="0 0 400 0" FontSize="15" TextWrapping="Wrap"/>
-        <TextBox x:Name="txtCriptografia" Width="350" Height="250" Margin="400 0 0 0" FontSize="15" TextWrapping="Wrap"/>
-        <Button x:Name="btCriptografar" Content="Criptografar" Width="100" Height="30" Margin="0 300 390 0"/>
-        <Button x:Name="btDescriptografar" Content="Descriptografar" Width="100" Height="30" Margin="0 300 -400 0"/>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0.7"/>
+                <GradientStop Color="#FF94A4AB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Texto Criptografado" FontSize="25" HorizontalAlignment="Center" Margin="0,10,0,347" Background="{x:Null}" FontWeight="Bold" FontStyle="Normal" FontFamily="Leelawadee UI"/>
+        <Label Content="Mensagem a ser criptografada:" FontSize="15" HorizontalAlignment="Left" Margin="77,55,0,286" Background="{x:Null}" FontWeight="Normal" FontStyle="Normal" FontFamily="Leelawadee UI"/>
+
+        <TextBox x:Name="txtMensagem" Width="350" Height="250" Margin="0 0 400 0" FontSize="15" TextWrapping="Wrap" BorderBrush="#89000000" ScrollViewer.CanContentScroll="True" BorderThickness="1,1,1,1"/>
+        <TextBox x:Name="txtCriptografia" Width="350" Height="250" Margin="400 0 0 0" FontSize="15" TextWrapping="Wrap" BorderThickness="1,1,1,1" Cursor="Arrow"/>
+        <Button x:Name="btCriptografar" Content="Criptografar" Width="140" Height="30" Margin="0 300 390 0" Click="btCriptografar_Click"/>
+        <Button x:Name="btDescriptografar" Content="Descriptografar" Width="140" Height="30" Margin="0 300 -400 0" Click="btDescriptografar_Click"/>
+        <Label Content="Código a ser descriptografado:" FontSize="15" HorizontalAlignment="Left" Margin="489,55,0,286" Background="{x:Null}" FontWeight="Normal" FontStyle="Normal" FontFamily="Leelawadee UI" Width="222"/>
+
     </Grid>
 </Window>
